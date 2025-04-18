@@ -1,0 +1,48 @@
+[
+    {
+      "element": "NiO",
+      "structure": "rocksalt",
+      "lattice_constant": 4.17,
+      "h": 1,
+      "k": 1,
+      "l": 1,
+      "orthorhombic": false,
+      "kpoints": [
+        [0.0, 0.0, 0.0],
+        [0.5, 0.0, 0.0],
+        [0.333, 0.333, 0.0],
+        [0.0, 0.0, 0.0]
+      ]
+    },
+    {
+      "element": "NiO",
+      "structure": "rocksalt",
+      "lattice_constant": 4.17,
+      "h": 1,
+      "k": 0,
+      "l": 0,
+      "orthorhombic": true,
+      "kpoints": [
+        [0.0, 0.0, 0.0],
+        [0.5, 0.0, 0.0],
+        [0.5, 0.5, 0.0],
+        [0.0, 0.0, 0.0]
+      ]
+    },
+    {
+      "element": "NiO",
+      "structure": "rocksalt",
+      "lattice_constant": 4.17,
+      "h": 1,
+      "k": 1,
+      "l": 0,
+      "orthorhombic": true,
+      "kpoints": [
+        [0.0, 0.0, 0.0],
+        [0.5, 0.0, 0.0],
+        [0.5, 0.5, 0.0],
+        [0.0, 0.5, 0.0],
+        [0.0, 0.0, 0.0]
+      ]
+    }
+]

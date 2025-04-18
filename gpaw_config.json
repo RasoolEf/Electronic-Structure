@@ -1,0 +1,30 @@
+{
+  "ground_state": {
+    "mode": {
+      "type": "PW",
+      "ecut": 350
+    },
+    "xc": "PBE",
+    "kpts": [2, 2, 4],
+    "fermi_smearing": 0.05
+  },
+  "band_structure": {
+    "nbands": 100,
+    "symmetry": "off",
+    "npoints": 40,
+    "convergence": {
+      "bands": 10
+    }
+  },
+  "pdos": {
+    "grid_spacing": 0.18,
+    "kpts": [2, 2, 4],
+    "convergence": {
+      "energy": 1e-3,
+      "eigenstates": 1e-3,
+      "density": 1e-3
+    },
+    "basis": "dzp",
+    "fermi_smearing": 0.05
+  }
+}
